@@ -67,8 +67,7 @@ main{
     padding: 24px;
     margin: auto;
     box-shadow: 1px 1px 1px black;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin: 0px 8px;
 }
 #tit{
     font-family: 'Courier New', Courier, monospace;
@@ -125,11 +124,7 @@ footer{
     margin: auto;
 }
 .video{
-    width: 200px;
-    
-    min-width: 200px;
-    max-width: 200px;
-    max-height: 900px;
+    width: 350px;
     display: block;
     margin: auto;
 

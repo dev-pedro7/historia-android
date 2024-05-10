@@ -1,0 +1,145 @@
+:root{
+    --cor-di-fundo:#79ffba;
+    --cor-di-fundo2:#23BD6D;
+    --cor1degrade:#24BD6E 10%;
+    --cor2degrade:#35664D;
+    --letra: white;
+    --hovercolor: #29fc8f;
+    --tit-sub:#05E573;
+    --degras: linear-gradient(to bottom, var(--cor1degrade), var(--cor2degrade));
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor-di-fundo);
+    margin-top: 0%;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+header{
+    background-color: var(--cor-di-fundo2);
+    
+    
+    background-image: var(--degras);
+    color: var(--letra)
+    
+
+}
+header>h1{
+    text-shadow: 1px 1px 1px black;
+}
+h1{
+    text-align: center;
+    margin: 0%;
+
+}
+p{
+    text-align: justify;
+    font-size: small;
+    
+}
+nav{
+    display: inline-block;
+    margin-right: 2px ;
+    text-align: left;
+    align-content: left;
+    
+    
+}
+nav > a{
+    color: var(--letra);
+    text-decoration: none;
+    margin-right: 20px;
+    
+}
+nav:hover {
+    background-color: var(--hovercolor);
+    border-radius: 10px;
+    padding: 2px;
+    
+}
+
+main{
+    text-align: justify;
+    background-color: var(--letra);
+    padding: 24px;
+    margin: auto;
+    box-shadow: 1px 1px 1px black;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#tit{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    text-align: justify;
+    color: var(--tit-sub);
+}
+.sub{
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--tit-sub);
+    padding: 0px;
+    background-image: linear-gradient(to right, #05e57138, white);
+}
+a{
+    text-decoration: none;
+    color: #35664D;
+    font-weight: bolder;
+}
+
+#sub-sect{
+    border-radius: 10px;
+    background-color: #05e57138;
+}
+#sub-sect > p{
+    padding: 5px;
+    
+}
+#sub-sect > h3{
+    font-size: small;
+    background-color: #75e0a9;
+    color: white;
+    padding: 5px;
+}
+footer{
+    background-color: #2C332F;
+    color: white;
+    
+}
+#suv{
+    text-align: center;
+}
+.imagem-responsiva {
+    max-width: 100%;
+    height: auto;
+}
+.muie{
+    max-width: 100%;
+    height: auto;
+}
+.bugdroid{
+    width: 350px;
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+.video{
+    width: 200px;
+    
+    min-width: 200px;
+    max-width: 200px;
+    max-height: 900px;
+    display: block;
+    margin: auto;
+
+}
+
+img{
+    width: 100%;
+}
+#imagem{
+    max-width: 100%;
+    
+    max-height: 100%;
+}

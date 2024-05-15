@@ -69,6 +69,11 @@ main{
     box-shadow: 1px 1px 1px black;
     margin: 0px 8px;
 }
+main p{
+    text-indent: 30px;
+    font-size: 21px;
+    line-height: 1.3em;
+}
 #tit{
     font-family: 'Courier New', Courier, monospace;
     font-size: 2em;
@@ -78,7 +83,7 @@ main{
 .sub{
     font-family: 'Courier New', Courier, monospace;
     color: var(--tit-sub);
-    padding: 0px;
+    padding-left: 10px;
     background-image: linear-gradient(to right, #05e57138, white);
 }
 a{
@@ -90,6 +95,12 @@ a{
 #sub-sect{
     border-radius: 10px;
     background-color: #05e57138;
+    
+}
+#sub-sect >ul{
+    list-style-type: '\✅';
+    list-style-position: inside;
+    columns: 2;
 }
 #sub-sect > p{
     padding: 5px;
